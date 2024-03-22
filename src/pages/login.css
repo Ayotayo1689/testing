@@ -1,0 +1,40 @@
+.LoginSignup {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+}
+.right {
+  flex: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.left {
+  flex: 1.5;
+  background-image: url(../images/login-img.jpg);
+  background-position: bottom;
+  background-size: cover;
+}
+.box {
+  width: 50%;
+  gap: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.loginBtn {
+  width: 60%;
+  height: 40px;
+  border-radius: 5px;
+  color: white;
+  background: #17baff;
+}
+.heading {
+  font-weight: 600;
+  font-size: 30px;
+}
+.link {
+  color: #179aff;
+  font-weight: 500;
+}
